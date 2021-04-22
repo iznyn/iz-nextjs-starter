@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@includes/*": ["includes/*"],
+      "@libs/*": ["libs/*"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"],
+      "@services/*": ["services/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
